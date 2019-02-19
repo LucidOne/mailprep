@@ -6,7 +6,8 @@ packages:
   - py3-virtualenv
   - py3-six
   - poppler-utils
-  - libffi
+  - build-base
+  - libffi-dev
 sources:
   - https://git.sr.ht/~lucidone/mailprep
 tasks:

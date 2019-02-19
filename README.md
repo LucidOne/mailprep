@@ -67,7 +67,7 @@ $ apt-get install poppler-utils
 Automatic tests can be run via any of the following methods depending on your workflow
 
 ```console
-python setup.py test
+$ python setup.py test
 ```
 
 ```console
