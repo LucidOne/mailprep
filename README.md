@@ -38,13 +38,14 @@ mailprep is distributed on [PyPI](https://pypi.org) as a universal
 wheel and is available on Linux/macOS and Windows and supports
 Python 3.5+ and PyPy.
 
-```bash session
+```console
 $ pip install mailprep
 ```
 
 ### Debian
 
 The DYMO printer driver can be installed with
+
 ```console
 $ apt-get install printer-driver-dymo
 ```
@@ -53,15 +54,18 @@ $ apt-get install printer-driver-dymo
 ## Testing
 
 ### System Dependencies
+
 #### Debian
 
 Testing requires `pdftotext`
+
 ```console
 $ apt-get install poppler-utils
 ```
 
 ### Automatic Tests
 Automatic tests can be run via any of the following methods depending on your workflow
+
 ```console
 python setup.py test
 ```
@@ -93,6 +97,7 @@ Templates are stored as [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Grap
 
 ### Address
 Currently `mailprep` generate labels from the vCard [ADR Type Definition](https://tools.ietf.org/html/rfc2426#section-3.2.1). In the future it may make more sense to use the [LABEL Type Definition](https://tools.ietf.org/html/rfc2426#section-3.2.2) but it is unclear which produced more consistent results.
+
 ```
 {{ adr_street }}
 {{ adr_city }}, {{ adr_region }}
