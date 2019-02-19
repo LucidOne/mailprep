@@ -11,13 +11,9 @@ def test_render_simulation(pytestconfig,request):
     try:
         test_path = os.path.dirname(os.path.abspath(str(request.fspath)))
         testdata_filepath = os.path.join(test_path,"data","example_wikipedia.vcf")
-        delegator.run("mailprep --simulate /home/build/mailprep/tests/data/example_wikipedia.vcf")
         runner = CliRunner()
         result = runner.invoke(mailprep, ['--debug','--simulate',testdata_filepath])
-        print("-->" + result.stdout + "<--")
-        print("-->" + result.stderr + "<--")
         pdf_filepath = result.stdout.split("\n")[0].split(":")[1].strip()
-        print(pdf_filepath)
         c = delegator.run("pdftotext " + pdf_filepath + " -")
     finally:
         capmanager.resume_global_capture()
