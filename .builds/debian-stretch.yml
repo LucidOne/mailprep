@@ -9,3 +9,4 @@ tasks:
   - test: |
       cd mailprep
       tox
+      mailprep --simulate /home/build/mailprep/tests/data/example_wikipedia.vcf
