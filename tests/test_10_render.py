@@ -9,7 +9,8 @@ def test_render_simulation(pytestconfig,request):
     capmanager = pytestconfig.pluginmanager.getplugin('capturemanager')
     capmanager.suspend_global_capture(in_=True)
     try:
-        test_path = os.path.dirname(request.fspath)
+        click.echo(request.fspath)
+        test_path = os.path.dirname(os.path.abspath(request.fspath))
         testdata_filepath = os.path.join(test_path,"data","example_wikipedia.vcf")
         runner = CliRunner()
         result = runner.invoke(mailprep, ['--simulate',testdata_filepath])

@@ -4,9 +4,10 @@ packages:
   - py3-tox
   - py3-virtualenv
   - py3-six
+  - py3-cffi
   - poppler-utils
   - build-base
-  - libffi-dev
+#  - libffi-dev
   - zlib-dev
   - jpeg-dev
 sources:
@@ -14,5 +15,5 @@ sources:
 tasks:
   - test: |
       cd mailprep
+      uname -a
       tox
-      cat /home/build/mailprep/.tox/py3/log/py3/*
