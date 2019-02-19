@@ -1,6 +1,6 @@
 # mailprep
 
-[![builds.sr.ht status](https://builds.sr.ht/~lucidone/mailprep/.build.yml.svg)](https://builds.sr.ht/~lucidone/mailprep/.build.yml?)
+[![builds.sr.ht status](https://builds.sr.ht/~lucidone/mailprep.svg)](https://builds.sr.ht/~lucidone/mailprep?)
 
 -----
 

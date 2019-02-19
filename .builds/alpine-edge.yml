@@ -8,6 +8,7 @@ packages:
   - build-base
   - libffi-dev
   - zlib-dev
+  - jpeg-dev
 sources:
   - https://git.sr.ht/~lucidone/mailprep
 tasks:
