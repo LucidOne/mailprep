@@ -55,12 +55,12 @@ $ apt-get install printer-driver-dymo
 
 ### System Dependencies
 
-#### Debian
+#### Debian/Stretch
 
-Testing requires `pdftotext`
+Testing requires `pdftotext` and `tox`
 
 ```console
-$ apt-get install poppler-utils
+$ apt-get install poppler-utils tox
 ```
 
 ### Automatic Tests
