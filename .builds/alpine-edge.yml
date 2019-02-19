@@ -7,7 +7,7 @@ packages:
   - py3-cffi
   - poppler-utils
   - build-base
-#  - libffi-dev
+  - libffi-dev
   - zlib-dev
   - jpeg-dev
 sources:

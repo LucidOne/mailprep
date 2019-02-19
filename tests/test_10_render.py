@@ -9,7 +9,7 @@ def test_render_simulation(pytestconfig,request):
     capmanager = pytestconfig.pluginmanager.getplugin('capturemanager')
     capmanager.suspend_global_capture(in_=True)
     try:
-        click.echo(request.fspath)
+        print(request.fspath)
         test_path = os.path.dirname(os.path.abspath(request.fspath))
         testdata_filepath = os.path.join(test_path,"data","example_wikipedia.vcf")
         runner = CliRunner()
