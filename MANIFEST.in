@@ -1,0 +1,6 @@
+include LICENSE-APACHE
+include LICENSE-MIT
+include CHANGELOG.md
+include README.md
+include requirements.txt
+graft mailprep

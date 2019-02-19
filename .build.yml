@@ -1,0 +1,14 @@
+image: alpine/edge
+packages:
+  - python
+  - python3
+  - py3-tox
+  - py3-virtualenv
+  - py3-six
+  - poppler-utils
+sources:
+  - https://git.sr.ht/~lucidone/mailprep
+tasks:
+  - test: |
+      cd mailprep
+      tox

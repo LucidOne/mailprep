@@ -1,0 +1,9 @@
+-e .
+-e git+https://github.com/pytest-dev/pytest.git@bf6dcd64dc7c93c3f79e703781a178b56273035a#egg=pytest
+-e git+https://github.com/nedbat/coveragepy.git@9a6bc6e58958957f07d1d400a40a85bb5e4e0c23#egg=coverage
+-e git+https://github.com/eventable/vobject.git@86199dc5e2800e5dbefcb1904ab5a994ff29a892#egg=vobject
+-e git+https://github.com/kennethreitz/delegator.py.git@d9a02eec9e15ee94d5de7b01fb02091f392bf05b#egg=delegator.py
+-e git+https://github.com/pallets/click.git@a936b99212c69a36a2cc2828252b2c4280c0c88c#egg=click
+-e git+https://github.com/Kozea/CairoSVG.git@0a99b88f034a46c83c5e1ed4541b34055ed9b4e9#egg=cairosvg
+-e git+https://github.com/defunkt/pystache.git@f9ca07a976696031ae0d98bb067e0cf692bd6c49#egg=pystache
+-e git+https://github.com/Delgan/loguru.git@ae123950db11e2cf6abb0d3b558d6b8768a6694e#egg=loguru

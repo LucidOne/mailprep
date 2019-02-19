@@ -1,0 +1,17 @@
+[metadata]
+name = 'mailprep'
+version = '0.1.0'
+description = 'mailprep converts vCard data into physical labels from SVG templates'
+author = 'NE Automation'
+author_email = 'code@neautomation.com'
+license = 'MIT/Apache-2.0'
+url = 'https://git.sr.ht/~lucidone/mailprep'
+
+[requires]
+python_version = ['3.5', '3.6', '3.7', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'
