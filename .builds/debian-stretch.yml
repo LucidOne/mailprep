@@ -1,0 +1,11 @@
+image: debian/stretch
+packages:
+  - python3
+  - tox
+  - poppler-utils
+sources:
+  - https://git.sr.ht/~lucidone/mailprep
+tasks:
+  - test: |
+      cd mailprep
+      tox
