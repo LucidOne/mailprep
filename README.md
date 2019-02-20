@@ -17,6 +17,8 @@
 
 [mailprep](https://git.sr.ht/~lucidone/mailprep) converts [vCard](https://en.wikipedia.org/wiki/VCard) data into physical labels with a *Dymo LabelWriter 4XL*.
 
+![Example Output](https://git.sr.ht/~lucidone/mailprep/tree/master/docs/example.jpg)
+
 ## Usage
 
 ```console
