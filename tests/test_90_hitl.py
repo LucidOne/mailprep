@@ -16,7 +16,7 @@ def test_hitl_display(pytestconfig,request):
         runner = CliRunner()
         result = runner.invoke(mailprep, ['--simulate',testdata_filepath])
         pdf_filepath = result.stdout.split("\n")[0].split(":")[1].strip()
-        delegator.run("evince " + pdf_filepath)
+        delegator.run("xdg-open " + pdf_filepath)
         test_result = input("Did the label display correctly (Y/n)?: ").lower()
     finally:
         capmanager.resume_global_capture()

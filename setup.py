@@ -25,6 +25,7 @@ kwargs = {
     'version': version,
     'description': 'mailprep converts vCard data into physical labels from SVG templates',
     'long_description': readme,
+    'long_description_content_type': 'text/markdown',
     'author': 'NE Automation',
     'author_email': 'code@neautomation.com',
     'maintainer': 'NE Automation',

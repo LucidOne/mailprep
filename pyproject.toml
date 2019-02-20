@@ -1,6 +1,6 @@
 [metadata]
 name = 'mailprep'
-version = '0.1.0'
+version = '0.1.1'
 description = 'mailprep converts vCard data into physical labels from SVG templates'
 author = 'NE Automation'
 author_email = 'code@neautomation.com'

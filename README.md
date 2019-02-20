@@ -15,7 +15,7 @@
 
 ## Overview
 
-`mailprep` converts [vCard](https://en.wikipedia.org/wiki/VCard) data into physical labels with a *Dymo LabelWriter 4XL*.
+[mailprep](https://git.sr.ht/~lucidone/mailprep) converts [vCard](https://en.wikipedia.org/wiki/VCard) data into physical labels with a *Dymo LabelWriter 4XL*.
 
 ## Usage
 
@@ -79,7 +79,7 @@ $ tox
 ```
 
 ### HitL Tests
-Human/Hardware in the Loop tests can be run manually if `evince` is installed and a printer is connected.
+Human/Hardware in the Loop tests can be run manually if `xdg-open` can find a pdf reader and a printer is connected.
 
 ```console
 $ hatch test --test-args "--hitl"
@@ -115,5 +115,4 @@ at your option.
 
 ### Test data
 The vCard test data is from [Wikipedia](https://en.wikipedia.org/wiki/Vcard#vCard_3.0)
-and is licensed as [Creative Commons Attribution-ShareAlike](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Cre
-ative_Commons_Attribution-ShareAlike_3.0_Unported_License).
+and is licensed as [Creative Commons Attribution-ShareAlike](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
