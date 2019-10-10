@@ -1,4 +1,5 @@
 -e .
+hg+https://bitbucket.org/pytest-dev/pytest-pep8@44ddb3739f0f892fc0029d5d809496ec5ef24f28#egg=pytest-pep8
 -e git+https://github.com/pytest-dev/pytest.git@bf6dcd64dc7c93c3f79e703781a178b56273035a#egg=pytest
 -e git+https://github.com/nedbat/coveragepy.git@9a6bc6e58958957f07d1d400a40a85bb5e4e0c23#egg=coverage
 -e git+https://github.com/eventable/vobject.git@86199dc5e2800e5dbefcb1904ab5a994ff29a892#egg=vobject
